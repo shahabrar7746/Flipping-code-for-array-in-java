@@ -14,10 +14,7 @@ public class Main
         int lengthofarray = sc.nextInt();
         int array[] = new int[lengthofarray];
        
-        while(lengthofarray%2 == 1){
-            System.out.println("Cannot flip on odd array");
-            lengthofarray = sc.nextInt();
-        }
+       
         for(int i = 0;i<array.length;i++){
             array[i] = sc.nextInt();
         }
